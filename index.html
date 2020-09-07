@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <div id="PageContainer">
+        <div id="ContentWrap">
+            <header>
+                <div class="headline">TO DO LIST</div>
+            </header>
+            <div class="inputbox">
+                <div>
+                    <input type="text" name="input" id="TxtInput" placeholder="Enter the item you wish to add " />
+                </div>
+                <div>
+                    <input type="button" onclick="AppendL()" id="EnterText" value="Click" />
+                </div>
+            </div>
+            <div class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    PENDING:
+                    <div class="Pending elements">
+
+                    </div>
+
+                </div>
+                <div class="flexbox-item flexbox-item-2">
+                    COMPLETED:
+                    <div class="Completed elements">
+
+
+                    </div>
+
+
+
+                </div>
+
+                <footer id="footer">
+                    A Kartik Gupta's Project©
+                </footer>
+            </div>
+            <script src="./app.js"></script>
+</body>
+
+</html>

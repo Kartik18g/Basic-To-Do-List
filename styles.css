@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Monoton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0D2C54;
+}
+
+
+/* @-webkit-keyframes neon4 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+    }
+} */
+
+#PageContainer {
+    position: relative;
+    min-height: 100vh;
+}
+
+#ContentWrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+.headline {
+    border: double 3px #b92e34;
+    background-color: #000019;
+    color: white;
+    font-family: 'Monoton';
+    font-size: 3rem;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+    animation: neon4 1.5s ease-in-out infinite alternate;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 2.5rem;
+    border: double 3px firebrick;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Monoton', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-animation: neon4 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon4 1.5s ease-in-out infinite alternate;
+    animation: neon4 1.5s ease-in-out infinite alternate;
+    /* Footer height */
+}
+
+.flexbox-container {
+    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox-item {
+    color: white;
+    border: 3px #faed27 solid;
+    margin: 100px;
+}
+
+.flexbox-item-1 {
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    min-height: 300px;
+}
+
+.flexbox-item-2 {
+    min-height: 300px;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.complistheading {
+    font-size: 200px;
+    font-family: 'Anton', sans-serif;
+}
+
+.elements {
+    padding: 10px;
+    font-size: 15px;
+    color: gold;
+}
+
+.elements div {
+    padding: 4px;
+}
+
+.inputbox {
+    display: inline-block;
+    text-align: center;
+}
+
+#TxtInput {
+    position: absolute;
+    font-size: 10px;
+    width: 300px;
+    height: 20px;
+    font-size: 15px;
+    margin: 20px;
+    color: white;
+    border: 3px dotted firebrick;
+    font-family: "Anton";
+}
+
+#EnterText {
+    position: relative;
+    left: 400px;
+    top: 20px;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: #272838;
+    font-family: 'Anton';
+    border-radius: 10px;
+    border: 2px double firebrick;
+}
+
+.buttonstyle {
+    width: 20px;
+    background-color: black;
+    font-family: 'Anton';
+    color: red;
+    border: groove 3px firebrick;
+}
